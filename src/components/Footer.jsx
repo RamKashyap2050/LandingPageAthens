@@ -9,7 +9,13 @@ export default function Footer() {
         {/* Brand */}
         <div className="footerCol">
           <div className="footerBrand">
-            <div className="footerLogo">AS</div>
+            <div className="logoCircle">
+              <img
+                src="https://lh3.googleusercontent.com/a-/ALV-UjW5impQlIbs5ZVW5ZrbDnWx4Xxt-6VQJMNzb5aRwQQxg0Nh1Lo=s240-p-k-rw-no"
+                alt="Athens Souvlaki logo"
+                className="logoImage"
+              />
+            </div>{" "}
             <div>
               <div className="footerName">Athens Souvlaki</div>
               <div className="footerTagline">Authentic Greek Cuisine</div>

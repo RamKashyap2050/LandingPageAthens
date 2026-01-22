@@ -69,9 +69,14 @@ export default function Hero() {
       <div className="heroOverlay" />
 
       <div className="heroInner">
-        <div className="logoCircle" aria-hidden="true">
-          AS
-        </div>
+      <div className="logoCircle">
+  <img
+    src="https://lh3.googleusercontent.com/a-/ALV-UjW5impQlIbs5ZVW5ZrbDnWx4Xxt-6VQJMNzb5aRwQQxg0Nh1Lo=s240-p-k-rw-no"
+    alt="Athens Souvlaki logo"
+    className="logoImage"
+  />
+</div>
+
 
         <div>
           <h1 className="heroTitle">Athens Souvlaki</h1>

@@ -197,12 +197,29 @@
 
 .card {
   border: 1px solid #ededed;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fff;
-  padding: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImageWrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .cardBody {
+  padding: 14px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -211,32 +228,29 @@
 .cardHeaderRow {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
   align-items: flex-start;
+  gap: 12px;
 }
 
 .cardTitle {
-  margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 800;
-  line-height: 1.2;
+  margin: 0;
+  line-height: 1.25;
 }
 
 .cardPrice {
-  font-weight: 800;
   font-size: 14px;
+  font-weight: 800;
+  white-space: nowrap;
 }
 
 .cardDesc {
-  margin: 0;
-  color: #555;
   font-size: 13px;
+  color: #555;
   line-height: 1.4;
 }
 
-.cardDescMuted {
-  opacity: 0.65;
-}
 
 .empty {
   padding: 36px 0;

@@ -49,7 +49,8 @@
     {
       "name": "Calamaria",
       "description": "Fried Squid Served With Mustard Mayo, House Sauce And Lemon Wedge.",
-      "price": 14.95
+      "price": 14.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/calamari.jpg"
     }
   ],
 
@@ -67,11 +68,21 @@
 
   "ourClassics": [
     { "name": "Gyro (Pork) - Just Pita", "description": "", "price": 6.49 },
-    { "name": "Gyro (Pork) - 1 Pita", "description": "", "price": 12.95 },
+    {
+      "name": "Gyro (Pork) - 1 Pita",
+      "description": "",
+      "price": 12.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/beefgyro.jpg"
+    },
     { "name": "Gyro (Pork) - 1/2 LB", "description": "", "price": 18.95 },
 
     { "name": "Gyro (Chicken) - Just Pita", "description": "", "price": 6.99 },
-    { "name": "Gyro (Chicken) - 1 Pita", "description": "", "price": 14.95 },
+    {
+      "name": "Gyro (Chicken) - 1 Pita",
+      "description": "",
+      "price": 14.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/chickengyro.jpg"
+    },
     { "name": "Gyro (Chicken) - 1/2 LB", "description": "", "price": 19.95 },
 
     {
@@ -117,12 +128,14 @@
     {
       "name": "Athens Salad (Small)",
       "description": "Mixed lettuce, ripe tomatoes, cucumbers, peppers, kalamata olives, red onions, feta with our delicious athens house dressing.",
-      "price": 9.99
+      "price": 9.99,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/salad.jpg"
     },
     {
       "name": "Athens Salad (Small) - With Meat",
       "description": "Mixed lettuce, ripe tomatoes, cucumbers, peppers, kalamata olives, red onions, feta with our delicious athens house dressing.",
-      "price": 12.99
+      "price": 12.99,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/salad.jpg"
     },
     {
       "name": "Athens Salad (Large)",
@@ -260,13 +273,15 @@
     {
       "name": "Grilled Jumbo Shrimp (6)",
       "description": "With lemon, olive oil and oregano.",
-      "price": 24.95
+      "price": 24.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/shrimpthis.jpg"
     },
 
     {
       "name": "Rib Steak (14oz)",
       "description": "Flat cut of beef cooked to your perfection drizzled with our own famous steak spices.",
-      "price": 29.95
+      "price": 29.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/steaj.jpg"
     },
     {
       "name": "Add Vegetables",
@@ -284,12 +299,14 @@
     {
       "name": "Poutine - Regular",
       "description": "All our poutines are served with fries, cheese curd and our own delicious poutine sauce.",
-      "price": 8.95
+      "price": 8.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/poutine.jpg"
     },
     {
       "name": "Poutine - Bacon",
       "description": "All our poutines are served with fries, cheese curd and our own delicious poutine sauce.",
-      "price": 10.95
+      "price": 10.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/poutinebacon.png"
     },
     {
       "name": "Poutine - Pepperoni",
@@ -322,12 +339,14 @@
     {
       "name": "Submarine 14\" - Chicken or Pork Gyro",
       "description": "All our submarines are garnished with onions, green peppers, mushrooms, lettuce, tomatoes, spices, swiss cheese and our delicious house dressing.",
-      "price": 13.95
+      "price": 13.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/submarines.jpg"
     },
     {
       "name": "Submarine 14\" - Steak",
       "description": "All our submarines are garnished with onions, green peppers, mushrooms, lettuce, tomatoes, spices, swiss cheese and our delicious house dressing.",
-      "price": 14.95
+      "price": 14.95,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/submarines.jpg"
     },
     {
       "name": "Submarine 14\" - Pepperoni",
@@ -355,12 +374,14 @@
     {
       "name": "Chicken or Pork Gyro Bowl (Small)",
       "description": "Rice or lettuce, corn, beans, carrots, tomatoes, cucumber, sauce of your choice, chopped meat.",
-      "price": 11
+      "price": 11,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/souvlakiplatter.jpg"
     },
     {
       "name": "Chicken or Pork Gyro Bowl (Large)",
       "description": "Rice or lettuce, corn, beans, carrots, tomatoes, cucumber, sauce of your choice, chopped meat.",
-      "price": 14
+      "price": 14,
+      "image": "https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/souvlakiplatter.jpg"
     },
 
     {

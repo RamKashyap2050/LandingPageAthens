@@ -40,19 +40,18 @@ function getStatus(now = new Date()) {
   }
 
   // If closed, show next opening time (today or tomorrow)
-  const nextOpen =
-    isBefore(now, openTime)
-      ? openTime
-      : (() => {
-          const tomorrow = new Date(now);
-          tomorrow.setDate(now.getDate() + 1);
-          const tDay = getDay(tomorrow);
-          const tHours = HOURS[tDay];
-          if (!tHours) return null;
+  const nextOpen = isBefore(now, openTime)
+    ? openTime
+    : (() => {
+        const tomorrow = new Date(now);
+        tomorrow.setDate(now.getDate() + 1);
+        const tDay = getDay(tomorrow);
+        const tHours = HOURS[tDay];
+        if (!tHours) return null;
 
-          const [h, m] = tHours.open.split(":").map(Number);
-          return setMinutes(setHours(tomorrow, h), m);
-        })();
+        const [h, m] = tHours.open.split(":").map(Number);
+        return setMinutes(setHours(tomorrow, h), m);
+      })();
 
   return {
     isOpen: false,
@@ -83,20 +82,14 @@ export default function Hero() {
           </div>
 
           <div className="heroSub">
-            <span
-              className={status.isOpen ? "statusOpen" : "statusClosed"}
-            >
+            <span className={status.isOpen ? "statusOpen" : "statusClosed"}>
               {status.label}
             </span>
           </div>
 
           <div className="heroSub2">
-            5495 Victoria Ave, Montreal <span className="muted">•</span>{" "}
-            <a
-              className="link"
-              href="#"
-              onClick={(e) => e.preventDefault()}
-            >
+            5897 Victoria Ave, Montreal <span className="muted">•</span>{" "}
+            <a className="link" href="#" onClick={(e) => e.preventDefault()}>
               More Info
             </a>
           </div>

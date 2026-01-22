@@ -390,3 +390,84 @@
   color: #ffb3b3;
   font-weight: 800;
 }
+
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 16px;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: modalIn 0.2s ease;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modalClose {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modalImageWrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.modalImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modalBody {
+  padding: 18px;
+}
+
+.modalTitle {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0 0 10px;
+}
+
+.modalDesc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.modalPrice {
+  font-size: 20px;
+  font-weight: 900;
+}

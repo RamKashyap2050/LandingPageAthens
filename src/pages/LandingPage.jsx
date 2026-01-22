@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Categories from "../components/Categories";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
+import ProductModal from "../components/ProductModal";
 import "../styles/landing.css";
 
 // --- helpers ---
@@ -65,6 +66,7 @@ function normalizeMenu(raw) {
 export default function LandingPage() {
   const [query, setQuery] = useState("");
   const categories = useMemo(() => normalizeMenu(menuData), []);
+  const [selectedItem, setSelectedItem] = React.useState(null);
 
   // refs for each section
   const sectionRefs = useRef({});
@@ -179,8 +181,9 @@ export default function LandingPage() {
               <div className="grid">
                 {cat.items.map((item, idx) => (
                   <ProductCard
-                    key={`${cat.id}-${slugify(item.name)}-${idx}`}
+                    key={`${cat.id}-${idx}`}
                     item={item}
+                    onClick={() => setSelectedItem(item)}
                   />
                 ))}
               </div>
@@ -188,6 +191,8 @@ export default function LandingPage() {
           ))
         )}
       </main>
+      <ProductModal item={selectedItem} onClose={() => setSelectedItem(null)} />
+
       <Footer />
     </div>
   );

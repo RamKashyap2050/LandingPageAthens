@@ -69,21 +69,39 @@ export default function Hero() {
       <div className="heroOverlay" />
 
       <div className="heroInner">
-      <div className="logoCircle">
-  <img
-    src="https://lh3.googleusercontent.com/a-/ALV-UjW5impQlIbs5ZVW5ZrbDnWx4Xxt-6VQJMNzb5aRwQQxg0Nh1Lo=s240-p-k-rw-no"
-    alt="Athens Souvlaki logo"
-    className="logoImage"
-  />
-</div>
-
+        <div className="logoCircle">
+          <img
+            src="https://lh3.googleusercontent.com/a-/ALV-UjW5impQlIbs5ZVW5ZrbDnWx4Xxt-6VQJMNzb5aRwQQxg0Nh1Lo=s240-p-k-rw-no"
+            alt="Athens Souvlaki logo"
+            className="logoImage"
+          />
+        </div>
 
         <div>
           <h1 className="heroTitle">Athens Souvlaki</h1>
 
           <div className="heroMeta">
-            <span className="pill">Delivery</span>
-            <span className="pill pillGhost">Pickup</span>
+            <div className="heroMeta">
+              <a
+                href="https://www.ubereats.com/ca/store/athens-souvlaki-bar-%26-grill-5897-avenue-victoria/06ugDFP1SOmXlQpJVMur8w?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
+                target="_blank"
+                rel="noreferrer"
+                className="pill pillLink"
+                aria-label="Order delivery on Uber Eats"
+              >
+                Delivery
+              </a>
+
+              <a
+                href="https://www.ubereats.com/ca/store/athens-souvlaki-bar-%26-grill-5897-avenue-victoria/06ugDFP1SOmXlQpJVMur8w?diningMode=PICKUP&sc=SEARCH_SUGGESTION"
+                target="_blank"
+                rel="noreferrer"
+                className="pill pillGhost pillLink"
+                aria-label="Order pickup on Uber Eats"
+              >
+                Pickup
+              </a>
+            </div>
           </div>
 
           <div className="heroSub">

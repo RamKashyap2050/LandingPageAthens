@@ -15,7 +15,7 @@ export default function Footer() {
                 alt="Athens Souvlaki logo"
                 className="logoImage"
               />
-            </div>{" "}
+            </div>
             <div>
               <div className="footerName">Athens Souvlaki</div>
               <div className="footerTagline">Authentic Greek Cuisine</div>
@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="footerCol">
           <div className="footerTitle">Location</div>
           <p className="footerText">
-            5495 Victoria Ave
+            5897 Victoria Ave
             <br />
             Montreal, QC
           </p>
@@ -60,23 +60,24 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Contact */}
+        {/* Order */}
         <div className="footerCol">
-          <div className="footerTitle">Contact</div>
-          <p className="footerText">
-            Phone: (514) 555-1234
-            <br />
-            Email: info@athenssouvlaki.com
-          </p>
+          <div className="footerTitle">Order From</div>
 
-          <div className="footerSocials">
-            <a href="#" aria-label="Instagram">
-              Instagram
-            </a>
-            <a href="#" aria-label="Facebook">
-              Facebook
-            </a>
-          </div>
+          <a
+            href="https://www.ubereats.com/ca/store/athens-souvlaki-bar-%26-grill-5897-avenue-victoria/06ugDFP1SOmXlQpJVMur8w?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
+            target="_blank"
+            rel="noreferrer"
+            className="uberEatsBtn"
+            aria-label="Order from Uber Eats"
+          >
+            <img
+              src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/1d/d2/3b1dd208-38c5-5d30-d56f-2584ba1a42ce/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/1200x630wa.png"
+              alt="Uber Eats"
+              className="uberEatsLogo"
+            />
+            <span>Order on Uber Eats</span>
+          </a>
         </div>
       </div>
 

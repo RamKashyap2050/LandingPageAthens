@@ -6,7 +6,7 @@
 
 .hero {
   height: 260px;
-  background: url("https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1600&q=60")
+  background: url("https://example-aws-bucket-trial-for-farmerplace.s3.us-east-2.amazonaws.com/AthensSouvlaki/souvlakiplatter.jpg")
     center/cover no-repeat;
   position: relative;
 }

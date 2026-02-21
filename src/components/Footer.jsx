@@ -51,13 +51,7 @@ export default function Footer() {
         {/* Hours */}
         <div className="footerCol">
           <div className="footerTitle">Hours</div>
-          <p className="footerText">
-            Mon – Thu: 11:00 AM – 10:00 PM
-            <br />
-            Fri – Sat: 11:00 AM – 11:00 PM
-            <br />
-            Sun: 12:00 PM – 9:00 PM
-          </p>
+          <p className="footerText">Mon – Sun: 11:00 AM – 10:00 PM</p>
         </div>
 
         {/* Order */}
@@ -77,6 +71,22 @@ export default function Footer() {
               className="uberEatsLogo"
             />
             <span>Order on Uber Eats</span>
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.doordash.com/store/athens-souvlaki-bar-&-grill-montr%C3%A9al-40235493/96340973/?event_type=autocomplete&pickup=false"
+            target="_blank"
+            rel="noreferrer"
+            className="uberEatsBtn"
+            aria-label="Order from Uber Eats"
+          >
+            <img
+              src="https://logosmarcas.net/wp-content/uploads/2020/11/DoorDash-Emblema.png"
+              alt="DoorDash"
+              className="uberEatsLogo"
+            />
+            <span>Order on Doordash</span>
           </a>
         </div>
       </div>

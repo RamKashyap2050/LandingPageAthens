@@ -17,7 +17,7 @@ export default function Footer() {
               />
             </div>
             <div>
-              <div className="footerName">Athens Souvlaki</div>
+              <div className="footerName">Athens Souvlaki Bar & Grill</div>
               <div className="footerTagline">Authentic Greek Cuisine</div>
             </div>
           </div>

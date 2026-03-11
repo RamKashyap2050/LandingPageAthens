@@ -78,7 +78,7 @@ export default function Hero() {
         </div>
 
         <div>
-          <h1 className="heroTitle">Athens Souvlaki</h1>
+          <h1 className="heroTitle">Athens Souvlaki Bar and Grill</h1>
 
           <div className="heroMeta">
             <div className="heroMeta">
